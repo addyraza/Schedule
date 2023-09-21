@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+}
+.card{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.data{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .pick-up .time{
+      font-size: 0.4rem;
+      margin: 0.5rem;
+      margin-top: 0.5rem;
+  }
+  .data{
+    margin: 0.5rem;
+    margin-top: 0rem;
+    gap: 0.3rem;
+  }
+}
